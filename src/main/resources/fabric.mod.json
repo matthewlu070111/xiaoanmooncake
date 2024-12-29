@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "xiaoanmooncake",
+	"version": "${version}",
+	"name": "Xiaoan's Mooncake Fever",
+	"description": "A submod of Xiaoan's Farming Core, brings mooncakes to the game!",
+	"authors": [
+		"imxiaoanag"
+	],
+	"contact": {
+		"homepage": "https://imxiaoanag.com/",
+		"sources": "https://github.com/matthewlu070111/xiaoanmooncake",
+		"issues": "https://github.com/matthewlu070111/xiaoanmooncake/issues"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/xiaoanmooncake/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.imxiaoanag.xiaoanmooncake.XiaoansMooncakeFever"
+		],
+		"client": [
+			"com.imxiaoanag.xiaoanmooncake.XiaoansMooncakeFeverClient"
+		],
+		"fabric-datagen": [
+			"com.imxiaoanag.xiaoanmooncake.XiaoansMooncakeFeverDataGenerator"
+		]
+	},
+	"mixins": [
+		"xiaoanmooncake.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*",
+		"xiaoanfc": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
