@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "xiaoanmooncake:item/lotus_seed_paste_mooncake"
+  }
+}

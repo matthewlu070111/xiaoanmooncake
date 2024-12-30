@@ -1,0 +1,12 @@
+{
+  "item.xiaoanmooncake.mooncake_models": "Mooncake Mould",
+  "item.xiaoanmooncake.used_mooncake_models": "Used Mooncake Mould",
+  "item.xiaoanmooncake.lotus_seed": "Lotus Seed",
+  "item.xiaoanmooncake.unbaked_lotus_seed_paste_mooncake": "Unbaked Lotus Seed Paste Mooncake",
+  "item.xiaoanmooncake.lotus_seed_paste_mooncake": "Lotus Seed Paste Mooncake",
+
+  "itemGroup.xiaoanmooncake.xiaoan_mooncake": "Xiaoan's Farming-Mooncake",
+
+  "itemTooltip.xiaoanmooncake.used_mooncake_models": "You need to wash it to use!",
+  "itemTooltip.xiaoanmooncake.unbaked": "Need to be baked!"
+}

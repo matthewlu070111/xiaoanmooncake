@@ -1,6 +1,8 @@
 package com.imxiaoanag.xiaoanmooncake;
 
+import com.imxiaoanag.xiaoanmooncake.item.MooncakeFCItemGroupRegister;
 import com.imxiaoanag.xiaoanmooncake.item.MooncakeFCItemRegister;
+import com.imxiaoanag.xiaoanmooncake.item.MooncakeFCItemRemainderNeeded;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -9,9 +11,6 @@ import org.slf4j.LoggerFactory;
 public class XiaoansMooncakeFever implements ModInitializer {
 	public static final String MOD_ID = "xiaoanmooncake";
 
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
@@ -19,5 +18,8 @@ public class XiaoansMooncakeFever implements ModInitializer {
 		LOGGER.info("Xiaoan's Mooncake Fever Loaded!");
 
 		MooncakeFCItemRegister.initialize();
+		MooncakeFCItemGroupRegister.initialize();
+
+		MooncakeFCItemRemainderNeeded.initialize();
 	}
 }

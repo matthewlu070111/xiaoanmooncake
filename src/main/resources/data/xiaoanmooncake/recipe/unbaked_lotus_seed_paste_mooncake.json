@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "xiaoanmooncake:mooncake_models"
+    },
+    {
+      "item": "xiaoanfc:dough"
+    },
+    {
+      "item": "xiaoanmooncake:lotus_seed"
+    }
+  ],
+  "result": {
+    "id": "xiaoanmooncake:unbaked_lotus_seed_paste_mooncake",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "item.xiaoanmooncake.mooncake_models": "月餅模具",
+  "item.xiaoanmooncake.used_mooncake_models": "用過的月餅模具",
+  "item.xiaoanmooncake.lotus_seed": "蓮子",
+  "item.xiaoanmooncake.unbaked_lotus_seed_paste_mooncake": "未烤熟的蓮蓉月餅",
+  "item.xiaoanmooncake.lotus_seed_paste_mooncake": "蓮蓉月餅",
+
+  "itemGroup.xiaoanmooncake.xiaoan_mooncake": "小安的農业-月餅",
+
+  "itemTooltip.xiaoanmooncake.used_mooncake_models": "需要洗淨才能使用！",
+  "itemTooltip.xiaoanmooncake.unbaked": "需要烘烤！"
+}

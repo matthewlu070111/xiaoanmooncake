@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "xiaoanmooncake:unbaked_lotus_seed_paste_mooncake"
+  },
+  "result": {
+    "id": "xiaoanmooncake:lotus_seed_paste_mooncake"
+  },
+  "experience": 0.35,
+  "cookingtime": 100
+}

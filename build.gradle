@@ -17,7 +17,13 @@ repositories {
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
 	flatDir {
-		dirs 'libs'
+		dir 'libs'
+	}
+
+	// REI maven
+	maven {
+		name = "Shedaniel"
+		url = "https://maven.shedaniel.me/"
 	}
 }
 
@@ -36,9 +42,12 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	implementation fileTree(dir: 'libs', include: ['*.jar'])
+	// Xiaoan's Farming Core
+	modImplementation "com.imxiaoanag:xiaoanfc:${project.xiaoanfc_version}"
 
-	modImplementation "com.imxiaoanag.xiaoanfc:xiaoanfc:1.0.0"
+	// Roughly Enough Items
+	modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:${project.rei_version}"
+	modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:${project.rei_version}"
 }
 
 processResources {
