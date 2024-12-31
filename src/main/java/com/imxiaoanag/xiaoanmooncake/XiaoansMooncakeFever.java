@@ -1,8 +1,8 @@
 package com.imxiaoanag.xiaoanmooncake;
 
-import com.imxiaoanag.xiaoanmooncake.item.MooncakeFCItemGroupRegister;
-import com.imxiaoanag.xiaoanmooncake.item.MooncakeFCItemRegister;
-import com.imxiaoanag.xiaoanmooncake.item.MooncakeFCItemRemainderNeeded;
+import com.imxiaoanag.xiaoanmooncake.item.MFItemGroups;
+import com.imxiaoanag.xiaoanmooncake.item.MFItems;
+import com.imxiaoanag.xiaoanmooncake.item.MFRemainderItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -17,9 +17,8 @@ public class XiaoansMooncakeFever implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Xiaoan's Mooncake Fever Loaded!");
 
-		MooncakeFCItemRegister.initialize();
-		MooncakeFCItemGroupRegister.initialize();
-
-		MooncakeFCItemRemainderNeeded.initialize();
+		MFItems.initialize();
+		MFItemGroups.initialize();
+		MFRemainderItems.initialize();
 	}
 }

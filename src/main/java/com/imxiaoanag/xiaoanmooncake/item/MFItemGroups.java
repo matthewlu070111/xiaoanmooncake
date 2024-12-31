@@ -11,14 +11,14 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-public class MooncakeFCItemGroupRegister {
+public class MFItemGroups {
 
     public static final RegistryKey<ItemGroup> XIAOAN_MOONCAKE = RegistryKey.of(RegistryKeys.ITEM_GROUP,
             Identifier.of(XiaoansMooncakeFever.MOD_ID, "xiaoan_mooncake"));
 
     public static void regMooncakesGroup(){
         Registry.register(Registries.ITEM_GROUP, XIAOAN_MOONCAKE, FabricItemGroup.builder().displayName(Text.translatable("itemGroup.xiaoanmooncake.xiaoan_mooncake"))
-                .icon(() -> new ItemStack(MooncakeFCItemRegister.LOTUS_SEED)).build());
+                .icon(() -> new ItemStack(MFItems.LOTUS_SEED)).build());
     }
 
     public static void initialize() {

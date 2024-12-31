@@ -1,4 +1,4 @@
-package com.imxiaoanag.xiaoanmooncake.item;
+package com.imxiaoanag.xiaoanmooncake.util;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -7,12 +7,12 @@ import net.minecraft.text.Text;
 
 import java.util.List;
 
-public class UsedModelsItem extends Item {
-    public UsedModelsItem(Settings settings) {
+public class UnbakedItem extends Item {
+    public UnbakedItem(Settings settings) {
         super(settings);
     }
 
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-        tooltip.add(Text.translatable("itemTooltip.xiaoanmooncake.used_mooncake_models"));
+        tooltip.add(Text.translatable("itemTooltip.xiaoanmooncake.unbaked"));
     }
 }
