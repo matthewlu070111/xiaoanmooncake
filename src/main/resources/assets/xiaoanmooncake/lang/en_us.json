@@ -4,7 +4,11 @@
   "item.xiaoanmooncake.lotus_seed": "Lotus Seed",
   "item.xiaoanmooncake.unbaked_lotus_seed_paste_mooncake": "Unbaked Lotus Seed Paste Mooncake",
   "item.xiaoanmooncake.lotus_seed_paste_mooncake": "Lotus Seed Paste Mooncake",
+  "item.xiaoanmooncake.unbaked_double_yolk_lotus_seed_paste_mooncake": "Unbaked Double Yolk Lotus Seed Paste Mooncake",
+  "item.xiaoanmooncake.double_yolk_lotus_seed_paste_mooncake": "Double Yolk Lotus Seed Paste Mooncake",
 
   "itemGroup.xiaoanmooncake.xiaoan_mooncake": "Xiaoan's Farming-Mooncake",
+
+  "itemTooltip.xiaoanmooncake.lotus_seed": "Breaking the Lily Pad and you will get the Lotus Seed",
   "itemTooltip.xiaoanmooncake.unbaked": "Need to be baked!"
 }

@@ -3,6 +3,7 @@ package com.imxiaoanag.xiaoanmooncake;
 import com.imxiaoanag.xiaoanmooncake.item.MFItemGroups;
 import com.imxiaoanag.xiaoanmooncake.item.MFItems;
 import com.imxiaoanag.xiaoanmooncake.item.MFRemainderItems;
+import com.imxiaoanag.xiaoanmooncake.loot_table.MFLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -20,5 +21,6 @@ public class XiaoansMooncakeFever implements ModInitializer {
 		MFItems.initialize();
 		MFItemGroups.initialize();
 		MFRemainderItems.initialize();
+		MFLootTableModifiers.initialize();
 	}
 }

@@ -4,8 +4,11 @@
   "item.xiaoanmooncake.lotus_seed": "蓮子",
   "item.xiaoanmooncake.unbaked_lotus_seed_paste_mooncake": "未烤熟的蓮蓉月餅",
   "item.xiaoanmooncake.lotus_seed_paste_mooncake": "蓮蓉月餅",
+  "item.xiaoanmooncake.unbaked_double_yolk_lotus_seed_paste_mooncake": "未烤熟的雙黃蓮蓉月餅",
+  "item.xiaoanmooncake.double_yolk_lotus_seed_paste_mooncake": "雙黃蓮蓉月餅",
 
   "itemGroup.xiaoanmooncake.xiaoan_mooncake": "小安的農业-月餅",
 
+  "itemTooltip.xiaoanmooncake.lotus_seed": "打破荷葉可以獲得蓮子",
   "itemTooltip.xiaoanmooncake.unbaked": "需要烘烤！"
 }
