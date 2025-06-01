@@ -18,7 +18,7 @@ public class MFItemGroups {
 
     public static void regMooncakesGroup(){
         Registry.register(Registries.ITEM_GROUP, XIAOAN_MOONCAKE, FabricItemGroup.builder().displayName(Text.translatable("itemGroup.xiaoanmooncake.xiaoan_mooncake"))
-                .icon(() -> new ItemStack(MFItems.LOTUS_SEED)).build());
+                .icon(() -> new ItemStack(MFItems.DOUBLE_YOLK_LOTUS_SEED_PASTE_MOONCAKE)).build());
     }
 
     public static void initialize() {
