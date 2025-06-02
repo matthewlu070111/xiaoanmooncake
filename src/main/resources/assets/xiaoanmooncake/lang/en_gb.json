@@ -10,5 +10,8 @@
   "item.xiaoanmooncake.unbaked_mixed_nuts_mooncake": "Unbaked Mixed Nuts Mooncake",
   "item.xiaoanmooncake.mixed_nuts_mooncake": "Mixed Nuts Mooncake",
 
-  "itemGroup.xiaoanmooncake.xiaoan_mooncake": "Xiaoan's Farming-Mooncake"
+  "itemGroup.xiaoanmooncake.xiaoan_mooncake": "Xiaoan's Farming-Mooncake",
+
+  "modmenu.nameTranslation.xiaoanmooncake": "Xiaoan's Mooncake Fever",
+  "modmenu.descriptionTranslation.xiaoanmooncake": "A submod of Xiaoan's Farming Core, brings mooncakes to the game! You can use Sinytra Connector to use this mod in Forge."
 }

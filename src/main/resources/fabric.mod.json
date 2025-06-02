@@ -41,7 +41,10 @@
 	},
 	"custom": {
 		"modmenu": {
-			"parent": "xiaoanfc"
+			"parent": "xiaoanfc",
+			"links": {
+				"modmenu.modrinth": "https://modrinth.com/mod/xiaoanmooncake"
+			}
 		}
 	}
 }
