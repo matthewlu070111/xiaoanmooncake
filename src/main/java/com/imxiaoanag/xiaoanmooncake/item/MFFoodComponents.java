@@ -5,4 +5,5 @@ import net.minecraft.component.type.FoodComponent;
 public class MFFoodComponents {
     public static final FoodComponent MOONCAKE_LESS = new FoodComponent.Builder().nutrition(4).saturationModifier(0.6f).build();
     public static final FoodComponent MOONCAKE_NORMAL = new FoodComponent.Builder().nutrition(6).saturationModifier(1.0f).build();
+    public static final FoodComponent MOONCAKE_MORE = new FoodComponent.Builder().nutrition(8).saturationModifier(1.2f).build();
 }

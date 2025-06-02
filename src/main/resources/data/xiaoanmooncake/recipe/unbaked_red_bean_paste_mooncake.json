@@ -11,11 +11,11 @@
       "item": "xiaoanfc:dough"
     },
     {
-      "item": "xiaoanfc:lotus_seed"
+      "item": "xiaoanfc:red_bean_paste"
     }
   ],
   "result": {
-    "id": "xiaoanmooncake:unbaked_lotus_seed_paste_mooncake",
+    "id": "xiaoanmooncake:unbaked_red_bean_paste_mooncake",
     "count": 1
   }
 }

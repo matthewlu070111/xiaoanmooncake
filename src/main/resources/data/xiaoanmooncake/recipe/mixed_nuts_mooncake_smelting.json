@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "xiaoanmooncake:unbaked_mixed_nuts_mooncake"
+  },
+  "result": {
+    "id": "xiaoanmooncake:mixed_nuts_mooncake"
+  },
+  "experience": 0.5,
+  "cookingtime": 200
+}

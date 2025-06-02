@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "xiaoanmooncake:unbaked_red_bean_paste_mooncake"
+  },
+  "result": {
+    "id": "xiaoanmooncake:red_bean_paste_mooncake"
+  },
+  "experience": 0.5,
+  "cookingtime": 200
+}

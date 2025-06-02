@@ -11,17 +11,23 @@
       "item": "xiaoanfc:dough"
     },
     {
-      "item": "xiaoanfc:lotus_seed"
+      "item": "xiaoanfc:sesame"
     },
     {
-      "item": "xiaoanfc:yolk"
+      "item": "xiaoanfc:peanut"
     },
     {
-      "item": "xiaoanfc:yolk"
+      "item": "xiaoanfc:salted_sunflower_seeds"
+    },
+    {
+      "item": "xiaoanfc:almond"
+    },
+    {
+      "item": "xiaoanfc:walnut"
     }
   ],
   "result": {
-    "id": "xiaoanmooncake:unbaked_double_yolk_lotus_seed_paste_mooncake",
+    "id": "xiaoanmooncake:unbaked_mixed_nuts_mooncake",
     "count": 1
   }
 }
